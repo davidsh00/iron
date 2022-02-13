@@ -6,8 +6,8 @@ import { RiExchangeFill, RiSettings3Fill } from "react-icons/ri";
 import { FaUserAlt } from "react-icons/fa";
 function Sidebar() {
   return (
-    <div className="sidebar-wrapper z-100">
-    <section className="sidebar md:fixed flex md:flex-col py-4 md:py-0 justify-around   z-100 md:justify-start  md:h-screen bg-white text-black md:w-16 items-center gap-3" style={{boxShadow:"0 -8px 30px 0px rgba(0,0,0,.3)"}}>
+    <div className="sidebar-wrapper z-100  ">
+    <section className="sidebar md:fixed flex md:flex-col py-4 md:py-0 justify-around   z-100 md:justify-start md:shadow-none shadow-[0_-8px_30px_0px_rgba(0,0,0,.3)]  md:h-screen bg-white text-black md:w-16 items-center gap-3" >
       <div className="sidebar-brand-icon hidden md:block my-4 text-red-600">
         <BsBuilding size={28} />
       </div>

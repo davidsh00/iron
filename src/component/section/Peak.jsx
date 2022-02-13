@@ -95,7 +95,8 @@ function Peak() {
     <SectionBox>
       <h2 className="capitalize">On top of the peak</h2>
       <p className="text-gray-400 text-sm">We are proud of our strengths</p>
-      <Bar data={state} />
+      <div className="w-[90%] overflow-hidden">  <Bar data={state} /></div>
+    
       <Card number={1} title="customer indicator"/>
       <Card />
     </SectionBox>

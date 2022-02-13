@@ -77,7 +77,7 @@ function Try() {
         </p>
       </div>
       <div className="opacity-60 mt-4">
-      <Bar data={state} onMouseLeave
+      <Bar data={state} 
       />
       </div>
       

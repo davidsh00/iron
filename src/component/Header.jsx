@@ -46,7 +46,7 @@ const HeaderLinks = () => {
       ></input>
 
       <ul
-        className={`header-links  flex flex-col gap-1 absolute w-full bg-white  left-0 top-[100%]  bottom-0 p-0 text-black md:static md:flex-row md:p-0 md:bg-inherit md:text-white overflow-hidden`}
+        className={`header-links  flex flex-col gap-1 md:shadow-none shadow-[0_5px_10px_1px_rgba(0,0,0,.3)] absolute w-full bg-white  left-0 top-[100%]  bottom-0 p-0 text-black md:static md:flex-row md:p-0 md:bg-inherit md:text-white overflow-hidden`}
       >
         <LinksItem item={"dashboard"} isActive />
         <LinksItem item={"site"} />
