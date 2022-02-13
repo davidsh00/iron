@@ -63,7 +63,7 @@ function LinksItem({ item, isActive }) {
         isActive && "active"
       }`}
     >
-      <a href="#">{item}</a>
+      <a href="www.google.com">{item}</a>
     </li>
   );
 }
@@ -80,13 +80,13 @@ const HeaderPanel = () => {
         />
         <HoverBox className={"mt-4"}>
           <li className=" hover:bg-gray-800  hover:text-white p-4 mx-1 ">
-            <a href="#">view profile</a>
+            <a href="www.google.com">view profile</a>
           </li>
           <li className=" hover:bg-gray-800 hover:text-white p-4 mx-1">
-            <a href="#">change user setting</a>
+            <a href="www.google.com">change user setting</a>
           </li>
           <li className=" hover:bg-gray-800 hover:text-white p-4 mx-1">
-            <a href="#">Log Out</a>
+            <a href="www.google.com">Log Out</a>
           </li>
         </HoverBox>
       </div>
@@ -95,7 +95,7 @@ const HeaderPanel = () => {
         <HoverBox isDisable={!notif} className={'translate-x-[10%] right-0'}
         >
           <li className=" hover:bg-gray-800  hover:text-white p-4 mx-1 ">
-            <a href="#">
+            <a href="www.google.com">
               you have {notif} new Message{notif > 1 && "s"}
             </a>
           </li>

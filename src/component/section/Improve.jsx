@@ -121,7 +121,7 @@ const Card = (props) => {
       <div>{props.children}</div>
       <div>
         <span className="inline-flex  bg-red-300 hover:text-white items-center  cursor-pointer gap-2bg-red-500 hover:bg-red-600 text-red-800 rounded-md px-2 py-1">
-          <a href="#">{props.btnText}</a> <FaAngleRight />
+          <a href="www.google.com">{props.btnText}</a> <FaAngleRight />
         </span>
       </div>
     </div>
