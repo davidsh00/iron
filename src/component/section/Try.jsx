@@ -55,28 +55,35 @@ Chart.register(
   Tooltip
 );
 const state = {
-  labels: ["January", "February", "March", "April", "May","june","july","August","September","november","October","september","December"],
+  labels: ["January", "February", "March", "April", "May","june","july","August","September","november","October"],
   datasets: [
     {
       label: "Rainfall",
       backgroundColor: "rgba(75,192,192,1)",
       borderColor: "rgba(0,0,0,1)",
       borderWidth: 2,
-      data: [65, 59, 80, 81, 56,70,10,35,42,71,62,97],
+      data: [65, 59, 80, 81, 56,70,10,35,42,71,62,0],
     },
   ],
 };
 
-const KeepOn = () => {
+function Try() {
   return (
-    <SectionBox className={"h-full"}>
-        <h2 className="capitalize">still you can progress</h2>
-      <div className=" m-auto max-w-xl">
-          <Bar
-            data={state}
-          />
+    <SectionBox>
+      <div className="text-center">
+        <h2>Try For Progress your Team</h2>
+        <p className="inline bg-green-100 text-green-700">
+          you are contributor in your Team, progress 12%
+        </p>
       </div>
+      <div className="opacity-60 mt-4">
+      <Bar data={state} onMouseLeave
+      />
+      </div>
+      
+      
     </SectionBox>
   );
-};
-export default KeepOn;
+}
+
+export default Try;

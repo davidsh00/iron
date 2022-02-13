@@ -92,7 +92,7 @@ const HeaderPanel = () => {
       </div>
       <div className="header-bell py-4 group relative">
         <Bell />
-        <HoverBox isDisable={!notif} className={'translate-x-[20%] '}
+        <HoverBox isDisable={!notif} className={'translate-x-[10%] right-0'}
         >
           <li className=" hover:bg-gray-800  hover:text-white p-4 mx-1 ">
             <a href="#">
